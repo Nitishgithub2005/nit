@@ -1,5 +1,5 @@
 public class square_root_finder {
-    static int search(int n){
+    static int sqroot(int n){
         int low =0,high=n;
         int ans=-1;
         while  (low<=high){
@@ -17,7 +17,7 @@ public class square_root_finder {
        return ans;
     }
     public static void main(String[] args) {
-        int n=68;
-        System.out.println(search(n));
+        int n=100;
+        System.out.println(sqroot(n));
     }
 }
