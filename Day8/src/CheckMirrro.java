@@ -34,9 +34,5 @@ public class CheckMirrro {
         root= mirror(root);
         System.out.println("\nIn-order of mirror tree");
         inorder(root);
-
-
-
-
     }
 }
