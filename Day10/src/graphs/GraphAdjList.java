@@ -19,7 +19,6 @@ public class GraphAdjList {
             adjList.get(u).add(v);
             adjList.get(v).add(u);
         }
-
         for (int i = 1; i <= n; i++) {
             System.out.print("Node -->"+i+"Neighbour");
             for (int v : adjList.get(i)) {
