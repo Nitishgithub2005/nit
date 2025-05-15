@@ -1,8 +1,9 @@
+import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class MinHeap {
     public static void main(String[] args) {
-        PriorityQueue<Integer> minheap = new PriorityQueue<>();// new PriorityQueue<>(Collections.reverseOrder());  for max heap
+        PriorityQueue<Integer> minheap = new PriorityQueue<>(Collections.reverseOrder());// new PriorityQueue<>(Collections.reverseOrder());  for max heap
         minheap.add(10);
         minheap.add(1);
         minheap.add(5);
